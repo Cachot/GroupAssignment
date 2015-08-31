@@ -18,6 +18,19 @@ h3 {
 	font-family: "Comic Sans MS", cursive;
 	text-decoration: blink;
 }
+#brand1 {
+	margin-left: 130px;
+	
+}
+#brand2 {
+	margin-left: 130px;
+	
+}
+h4 {
+	font-family: "Comic Sans MS", cursive;
+	font-style: normal;
+	color: #FFF;
+}
 
 /* CSS Document */
 	
@@ -69,8 +82,9 @@ h3 {
 #footer {
 	width: 1000px;
 	background-image:url(../images/footer.gif)
-
+	
 }
+
 
 ul {
     list-style-type: none;
@@ -88,9 +102,10 @@ ul li a{
 }
 
 li {
-	padding-left: 100px;
+	padding-left: 140px;
     display: inline;
 	
 	
 }
 </style>
+
