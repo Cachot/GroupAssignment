@@ -10,8 +10,10 @@ body{
 ul,dl,dd,h1,h2,h3,h4,h5,h6,form,p { padding:0; margin: 0}
 ul { list-style:none;}
 img{ border:0px;}
-a{ color:#05a; text
-<style>-decoration:none;}
+a{ color:#FFF; text-decoration:none;
+
+
+}
 a:hover{ color:#f00;}
 
 <style>
