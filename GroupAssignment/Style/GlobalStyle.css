@@ -22,7 +22,7 @@ a:hover{ color:#f00;}
 /*title*/
 #top{ margin-bottom:8px; overflow:auto;zoom:1;}
 #logo{float:left; width:7%; background:#FFFF99}
-#nav{ float:right; width:93%; background-image: url(../Images/Images/navbar.jpg)}
+#nav{ float:right; width:92%; background-image: url(../Images/Images/navbar.jpg)}
 .clearfloat{clear:both;height:0;font-size:1px;line-height: 0px;}
 /*main*/
 #superslide{width:100%;}
@@ -46,6 +46,16 @@ h2 {
 	text-decoration: blink;
 	margin: 0px;
 	padding: 10px;
+	text-align: left;
+}
+.h4 {
+	font-size: 30px;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #000;
+	text-decoration: blink;
+	margin: 0px;
+	padding: 10px;
+	text-align: center;
 }
 .p2 {
 	font-size: 20px;
@@ -66,7 +76,7 @@ h3 {
 }
 .p4 {
 	font-family: "Comic Sans MS", cursive;
-	font-size: 24px;
+	font-size: 28px;
 	font-weight: bold;
 	color: #000;
 	text-align: justify;
@@ -82,7 +92,7 @@ h3 {
 }
 .p6 {
 	font-family: "Comic Sans MS", cursive;
-	font-size: 18px;
+	font-size: 22px;
 	font-weight: bold;
 	color: #000;
 	text-align: justify;
