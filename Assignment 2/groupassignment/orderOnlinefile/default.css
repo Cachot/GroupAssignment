@@ -1,0 +1,118 @@
+html {
+	width:100%;
+	height:100%;
+}
+body {
+	margin: 0 auto;
+	background: #ececec;
+	font-size: 20px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #000;
+	
+	
+	padding:0;
+	font: 13px/1.5 helvetica, arial, san-serif;
+	height: 100%;
+}
+h1, h2 { text-align:center; }
+h2 {
+	position:absolute;
+	bottom: 20px;
+	color:#fff;
+	text-shadow:0 0 10px rgba(0, 0, 0, 0.75);
+	display:none;
+}
+p { margin:0; }
+#nav{ float:right; width:93%; background:url(file:///C|/Users/Licomjsc/Desktop/groupassignment/images/Images/navbar.jpg)}
+#logo{float:left; width:7%; background:#FFFF99}
+#top{ margin-bottom:8px; overflow:auto;zoom:1;}
+[draggable=true] {
+	cursor: move;
+}
+#logo{float:left; width:7%; background:#FFFF99}
+#products {
+	float:left;
+	list-style:none;
+	width:60%;
+	padding:0;
+}
+#products li {
+	display:inline;
+}
+.item {
+	display:block;
+	float:left;
+	width:180px;
+	height:180px;
+	margin:10px;
+	border:1px solid #494949;
+	text-align:center;
+	text-decoration:none;
+	color: #000;
+	overflow:hidden;
+}
+.item img {
+	border:0;
+	margin:10px auto;
+	width:160px;
+	height:160px;
+}
+.item div {
+	background:rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.5);
+	position:relative;
+	bottom:69px;
+	color:#f3f3f3;
+	padding:5px 0;
+	display:none;
+}
+#cart {
+	float:right;
+	background-color:#ccc;
+	width:20%;
+	padding:0 5%;
+	height:100%;
+}
+#cart ul {
+	
+	
+}
+#cart li {
+	list-style:none;
+	border-bottom:1px solid #494949;
+	padding:5px;
+}
+#cart .quantity {
+	font-weight:bold;
+	padding-right:10px;
+	margin-right:10px;
+	border-right:1px solid #494949;
+	display:inline-block;
+	width:15px;
+	text-align:right;
+}
+#cart .price {
+	float:right;
+}
+#total {
+	float:right;
+}
+a{ color:#FFF; text-decoration:none;}
+a:hover{
+	background-color: #EEE;
+	border-bottom: solid 1px #CCC;
+	border-left: solid 1px #CCC;
+	border-top: solid 1px #999;
+	clear: both;
+}
+h3 {
+	font-size:30px;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #F00;
+	text-decoration: blink;
+}
+.p3 {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 20px;
+	color: #FFF;
+}
