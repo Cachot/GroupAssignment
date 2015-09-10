@@ -20,7 +20,7 @@ a:hover{ color:#f00;}
 /*title*/
 #top{ margin-bottom:8px; overflow:auto;zoom:1;}
 #logo{float:left; width:7%; background:#FFFF99}
-#nav{ float:right; width:93%; background:url(file:///C|/Users/Licomjsc/Desktop/groupassignment/images/Images/navbar.jpg)}
+#nav{ float:right; width:93%; 
 .clearfloat{clear:both;height:0;font-size:1px;line-height: 0px;}
 /*main*/
 #superslide{width:100%;}
