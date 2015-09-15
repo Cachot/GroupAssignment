@@ -20,29 +20,51 @@ a:hover{ color:#f00;}
 /*title*/
 #top{ margin-bottom:8px; overflow:auto;zoom:1;}
 #logo{float:left; width:7%; background:#FFFF99}
-#nav{ float:right; width:93%; background-image:url(file:///C|/Users/META/Desktop/groupassignment/groupassignment/images/Images/navbar.jpg) }
-
+#nav{ float:right; width:93%; background:url(../images/Images/navbar.jpg)}
 .clearfloat{clear:both;height:0;font-size:1px;line-height: 0px;}
 /*main*/
 #superslide{width:100%;}
 #banner{width:100%;}
-#main{margin-bottom:8px; margin-bottom:8px; background:url(file:///C|/Users/META/Desktop/groupassignment/groupassignment/images/Images/navbar.jpg) }
+#main{margin-bottom:8px; margin-bottom:8px; background:url(file:///C|/Users/Licomjsc/Desktop/groupassignment/background.jpg) }
 /*footer*/
 
 .p1 {
 	font-size:24px;
 	font-style: normal;
-	color: #333;
+	color: #009;
 }
 
+h1 {
+	font-family: "Comic Sans MS", cursive;
+}
+
+
 h2 {
-	font-size: 30px;
-	font-family: Verdana, Geneva, sans-serif;
-	color: #000;
+	font-size: 24px;
+	font-family: "Comic Sans MS", cursive;
+	color: #F00;
 	text-decoration: blink;
 	margin: 0px;
 	padding: 10px;
 }
+p {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 16px;
+	margin:"20px";
+}
+
+h3 {
+	font-size: 30px;
+	font-family: "Comic Sans MS", cursive;
+	color: #F00;
+	text-decoration: blink;
+}
+
+
+
+
+}
+
 .p2 {
 	font-size: 20px;
 	font-style: oblique;
@@ -54,12 +76,7 @@ h2 {
 	color: #FFF;
 }
 
-h3 {
-	font-size:30px;
-	font-family: Verdana, Geneva, sans-serif;
-	color: #F00;
-	text-decoration: blink;
-}
+
 .p4 {
 	font-family: "Comic Sans MS", cursive;
 	font-size: 24px;
@@ -71,11 +88,13 @@ h3 {
 	vertical-align: middle;
 	word-spacing: normal;
 }
+
 .p5 {
 	font-size:22px;
 	font-style: normal;
 	color: #000;
 }
+
 .p6 {
 	font-family: "Comic Sans MS", cursive;
 	font-size: 18px;
@@ -128,4 +147,3 @@ h3 {
 	height:0;
 	line-height:0;
 	visibility:hidden;
-}
