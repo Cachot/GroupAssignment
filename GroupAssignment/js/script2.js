@@ -8,34 +8,24 @@ var slideshowSpeed = 6000;
 // Variable to store the images we need to set as background
 // which also includes some text and url's.
 var photos = [ {
-		"image" : "vacation.jpg",
-		"url" : "http://www.sxc.hu/photo/1271909",
-		"firstline" : "Going on",
-		"secondline" : "vacation?"
+		"image" : "cafe1.jpg",
+		"url" : "http://www.sxc.hu/photo/1265695"
 	}, {
 		"title" : "Office Appartments",
-		"image" : "work.jpg",
-		"url" : "http://www.sxc.hu/photo/1265695",
-		"firstline" : "Or still busy at",
-		"secondline" : "work?"
+		"image" : "cafe2.jpg",
+		"url" : "http://www.sxc.hu/photo/1265695"
 	}, {
 		"title" : "Mountainbiking",
-		"image" : "biking.jpg",
-		"url" : "http://www.sxc.hu/photo/1221065",
-		"firstline" : "Get out and be",
-		"secondline" : "active"
+		"image" : "cafe3.jpg",
+		"url" : "http://www.sxc.hu/photo/1265695"
 	}, {
 		"title" : "Mountains Landscape",
-		"image" : "nature.jpg",
-		"url" : "http://www.sxc.hu/photo/1271915",
-		"firstline" : "Take a fresh breath of",
-		"secondline" : "nature"
+		"image" : "cafe4.jpg",
+		"url" : "http://www.sxc.hu/photo/1265695"
 	}, {
 		"title" : "Italian pizza",
-		"image" : "food.jpg",
-		"url" : "http://www.sxc.hu/photo/1042413",
-		"firstline" : "Enjoy some delicious",
-		"secondline" : "food"
+		"image" : "cafe5.jpg",
+		"url" : "http://www.sxc.hu/photo/1265695"
 	}
 ];
 
