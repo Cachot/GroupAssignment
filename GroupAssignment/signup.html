@@ -2,79 +2,131 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>SignUp</title>
+<link rel="stylesheet" href="styleAnimation.css">
 <link href="style/GlobalStyle.css" rel="stylesheet" type="text/css" />
+<title>FRIAS</title>
+<script src="js/LoginAndSignUpScript.js"></script>
+<script src="js/signupscript.js"></script>
+
+
 </head>
 
 <body>
-
- 
-    <div id="logo"><img src="images/Images/logo.jpg" width="105" height="71" /></div>
+<div id="top">
+<div id="logo"><img src="Images/Images/logo.jpg" width="105" height="71" /></div>
 <div id="nav">
-  <table width=100% height="71" border="1">
+ <table width=100% height="71" border="1">
     <tr>
-     <td width="11%" align="center" class="p3"><strong><a href="index.html">Home</a></strong></td>
-      <td width="11%" align="center" class="p3"><strong><a href="aboutus.html">About Us</a></strong></td>
-      <td width="11%" align="center" class="p3"><strong><a href ="brand.html">Brands</a></strong></td>
-      <td width="11%" align="center" class="p3"><strong><a href="adtocard.html">Online Order</a></strong></td>
-      <td width="11%" align="center" class="p3"><strong><a href="signup.html">Sign Up</a></strong></td>
-      <td width="11%" align="center" class="p3"><strong><a href="event.html">Events</a></strong></td>
-       <td width="11%" align="center" class="p3"><strong><a href="cafe.html">Café</a></strong></td>
-       <td width="11%" align="center" class="p3"><strong><a href="services.html">Service</a></strong></td>
-      <td width="11%" align="center" class="p3"><strong><a href="feedback.html">Feedback</a></strong></td>
+      <td width="10%" align="center" class="p3"><strong><a href="index.html">Home</a></strong></td>
+      <td width="10%" align="center" class="p3"><strong><a href="brand.html">Brand </a></strong></td>
+      <td width="10%" align="center" class="p3"><strong><a href="cafe.html">Cafe</strong></td>
+      <td width="10%" align="center" class="p3"><strong><a href="event.html">Event</a></strong></td>
+      <td width="10%" align="center" class="p3"><strong><a href="adtocard.html">Online Order</a></strong></td>
+      <td width="10%" align="center" class="p3"><strong><a href="service.html">Service</a></strong></td>
+            <td width="10%" align="center" class="p3"><strong><a href="feedback.html">Feedback</a></strong></td>
+      <td width="10%" align="center" class="p3"><strong><a href="aboutus.html">About Us</a></strong></td>
+      <td width="10%" align="center" class="p3"><strong><a href="faqs.html">FAQ</a></strong></td>
+      <td width="10%" align="center" class="p3"><strong><a href="login.html">Login</a></strong></td>
+      
     </tr>
   </table>
 </div>
-
-<div id="main">
-<h2 align="center">SignUp For Our Newsletters Today</h2>
-<form id="form1" name="form1" method="post" action="">
-  <table width="493" border="1" align="center">
-    <tr>
-      <td width="173">First Name </td>
-      <td width="304"><label for="fname"></label>
-      <input name="fname" type="text" id="fname" size="50" maxlength="20" /></td>
-    </tr>
-    <tr>
-      <td>Last Name</td>
-      <td><label for="lname"></label>
-      <input name="lname" type="text" id="lname" size="50" maxlength="20" /></td>
-    </tr>
-    <tr>
-      <td>Email </td>
-      <td><label for="email"></label>
-      <input name="email" type="text" id="email" size="50" maxlength="20" /></td>
-    </tr>
-    <tr>
-      <td>Mobile</td>
-      <td><label for="Mnum"></label>
-      <input name="Mnum" type="text" id="Mnum" size="50" maxlength="20" /></td>
-    </tr>
-    <tr>
-      <td colspan="2"><input type="reset" name="reset" id="reset" value="Reset" />
-      <input type="submit" name="reset2" id="reset2" value="Submit" /></td>
-    </tr>
-  </table>
-</form>
-
-<h2>Service Note:</h2>
-<p>Write Something here about Service </p>
-
 </div>
-
-<div id="footer">
-<div class="footerLeft">
-              
-<h3>Contact Us
-</h3>
-<p><strong>Phone: +65-44446677<br />
-                  Email: <a href="mailto:Frias@gmail.com">Frias@gmail.com</a> <br />
-               Address: 100, Orchard Crescent, 100000 Singapore</strong></p>
-                <p>&nbsp;</p>
-             
+<div class="clearfloat"></div>
+<div class="format">
+ <form action="process.php" method="POST" name="mainForm" id="mainForm">
+	<h2>Creat a new account</h2>
+ 			<table cellpadding="0" cellspacing="0" border="1">
+                <tr>
+                    <td>
+                        UserName :
+                    </td>
+                    <td>
+                        <input type="text" name="txtUsername" size="50" on
+                        onfocus=" alertUser"/>
+                    </td>
+              </tr>
+                <tr>
+                    <td>
+                        Password :
+                    </td>
+                    <td>
+                        <input type="password" name="txtPassword" size="50" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Email :
+                    </td>
+                    <td>
+                        <input type="text" name="txtEmail" size="50" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Full Name :
+                    </td>
+                    <td>
+                        <input type="text" name="txtFullname" size="50" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Date of Birth :
+                    </td>
+                    <td>
+                        <input type="text" name="txtBirthday" size="50" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Sex:
+                    </td>
+                    <td>
+                        <select name="txtSex">
+                            <option value=""></option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                        </select>
+                    </td>
+              </tr>
+                    <tr>
+                    <td>
+                    	Day:
+                    </td>
+                   <td>
+                        <select name="txtSex">
+                            <option value=""></option>
+                          <option value="Monday">Monday</option>
+                          <option value="Tuesday">Tuesday</option>
+                            <option value="Wednesday">Wednesday</option>
+                            <option value="Thusday">Thusday</option>
+                            <option value="Friday">Friday</option>
+                            <option value="Saturday">Saturday</option>
+                            <option value="Sunday">Sunday</option>
+                        </select>
+                    </td>
+                </tr>
+    </table>
+    <p>
+      <input type="checkbox" name="checkAgree" id="checkAgree" accesskey="12" tabindex="2" />
+    .Tick-box       for whether you have read and agree with our playing guidelines (below)
+    </p>
+    <h2>&nbsp;</h2>
+    <p>&nbsp;</p>
+<p>&nbsp;</p>
+   
+    <p>
+    
+      <input type="submit" value="Submit"  onclick="confirmAction()"/>
+              <input type="reset" value="Reset" onclick="resetForm
+              "/>
+    </p>
+	<SCRIPT language="JavaScript">
+	
+	</SCRIPT>
+  </form>
 </div>
-
-
 
 </body>
 </html>
