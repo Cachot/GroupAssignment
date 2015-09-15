@@ -1,0 +1,150 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0 auto;
+	font-size: 20px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	line-height: 1;
+	color: #000;
+	background-image: url(file:///C|/Users/Shayne/Documents/GitHub/GroupAssignment/GroupAssignment/Images/Images/Background.png);
+}
+ul,dl,dd,h1,h2,h3,h4,h5,h6,form,p { padding:0; margin: 0}
+ul { list-style:none;}
+img{ border:0px;}
+a{ color:#FFF; text-decoration:none;
+}
+a:hover{ color:#f00;}
+
+<style>
+#contaniner{ width: 100%; margin:0 auto;}
+
+/*title*/
+#top{ margin-bottom:8px; overflow:auto;zoom:1;}
+#logo{float:left; width:7%; background:#FFFF99}
+#nav{ float:right; width:93%; background:url(../images/Images/navbar.jpg)}
+.clearfloat{clear:both;height:0;font-size:1px;line-height: 0px;}
+/*main*/
+#superslide{width:100%;}
+#banner{width:100%;}
+#main{margin-bottom:8px; margin-bottom:8px; background:url(file:///C|/Users/Licomjsc/Desktop/groupassignment/background.jpg) }
+/*footer*/
+
+.p1 {
+	font-size:24px;
+	font-style: normal;
+	color: #009;
+}
+
+h1 {
+	font-family: "Comic Sans MS", cursive;
+}
+
+
+h2 {
+	font-size: 24px;
+	font-family: "Comic Sans MS", cursive;
+	color: #F00;
+	text-decoration: blink;
+	margin: 0px;
+	padding: 10px;
+}
+p {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 16px;
+	margin:"20px";
+}
+
+h3 {
+	font-size: 30px;
+	font-family: "Comic Sans MS", cursive;
+	color: #F00;
+	text-decoration: blink;
+}
+
+
+
+
+}
+
+.p2 {
+	font-size: 20px;
+	font-style: oblique;
+	color: #666;
+}
+.p3 {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 20px;
+	color: #FFF;
+}
+
+
+.p4 {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 24px;
+	font-weight: bold;
+	color: #000;
+	text-align: justify;
+	margin: 10px;
+	padding: 10px;
+	vertical-align: middle;
+	word-spacing: normal;
+}
+
+.p5 {
+	font-size:22px;
+	font-style: normal;
+	color: #000;
+}
+
+.p6 {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 18px;
+	font-weight: bold;
+	color: #000;
+	text-align: justify;
+}
+.p7 {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 24px;
+	color: #000;
+	background-color:#C90;
+}
+#footer{
+	clear: both;
+	zoom: 1;
+	background-color:#CCC;
+}
+
+#footer .footerLeft{
+	
+	float: left;
+	width: 340;
+	background-color: ;
+}
+#footer .footerRight{
+	float: right;
+	width: 530;
+	background-color: ;
+}
+#footer .footerRight ul{
+	text-align:right;
+
+}
+#footer .footerRight ul li{
+	display:inline;
+	border-right: solid 1px #333;
+	padding:0 5px;
+}
+#footer .footerRight ul li  .last{
+	border-right:none;
+	padding-right:0;
+}
+
+
+#footer:after{
+	clear:both;
+	content: ".";
+	display: block;
+	height:0;
+	line-height:0;
+	visibility:hidden;

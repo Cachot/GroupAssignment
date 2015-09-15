@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="styleAnimation.css">
+<link href="style/GlobalStyle.css" rel="stylesheet" type="text/css" />
+<title>FRIAS</title>
+<script src="js/LoginAndSignUpScript.js"></script>
+<script src="js/signupscript.js"></script>
+
+
+</head>
+
+<body>
+<div id="top">
+<div id="logo"><img src="Images/Images/logo.jpg" width="105" height="71" /></div>
+<div id="nav">
+ <table width=100% height="71" border="1">
+    <tr>
+      <td width="10%" align="center" class="p3"><strong><a href="index.html">Home</a></strong></td>
+      <td width="10%" align="center" class="p3"><strong><a href="brand.html">Brand </a></strong></td>
+      <td width="10%" align="center" class="p3"><strong><a href="cafe.html">Cafe</strong></td>
+      <td width="10%" align="center" class="p3"><strong><a href="event.html">Event</a></strong></td>
+      <td width="10%" align="center" class="p3"><strong><a href="orderOnlinefile/adtocard.html">Online Order</a></strong></td>
+      <td width="10%" align="center" class="p3"><strong><a href="service.html">Service</a></strong></td>
+            <td width="10%" align="center" class="p3"><strong><a href="feedback.html">Feedback</a></strong></td>
+      <td width="10%" align="center" class="p3"><strong><a href="aboutus.html">About Us</a></strong></td>
+      <td width="10%" align="center" class="p3"><strong><a href="faqs.html">FAQ</a></strong></td>
+      <td width="10%" align="center" class="p3"><strong><a href="login.html">Login</a></strong></td>
+      
+    </tr>
+  </table>
+</div>
+</div>
+<div class="clearfloat"></div>
+<div class="format">
+ <form action="process.php" method="POST" name="mainForm" id="mainForm">
+	<h2>Creat a new account</h2>
+ 			<table cellpadding="0" cellspacing="0" border="1">
+                <tr>
+                    <td>
+                        UserName :
+                    </td>
+                    <td>
+                        <input type="text" name="txtUsername" size="50" on
+                        onfocus=" alertUser"/>
+                    </td>
+              </tr>
+                <tr>
+                    <td>
+                        Password :
+                    </td>
+                    <td>
+                        <input type="password" name="txtPassword" size="50" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Email :
+                    </td>
+                    <td>
+                        <input type="text" name="txtEmail" size="50" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Full Name :
+                    </td>
+                    <td>
+                        <input type="text" name="txtFullname" size="50" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Date of Birth :
+                    </td>
+                    <td>
+                        <input type="text" name="txtBirthday" size="50" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Sex:
+                    </td>
+                    <td>
+                        <select name="txtSex">
+                            <option value=""></option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                        </select>
+                    </td>
+              </tr>
+                    <tr>
+                    <td>
+                    	Day:
+                    </td>
+                   <td>
+                        <select name="txtSex">
+                            <option value=""></option>
+                          <option value="Monday">Monday</option>
+                          <option value="Tuesday">Tuesday</option>
+                            <option value="Wednesday">Wednesday</option>
+                            <option value="Thusday">Thusday</option>
+                            <option value="Friday">Friday</option>
+                            <option value="Saturday">Saturday</option>
+                            <option value="Sunday">Sunday</option>
+                        </select>
+                    </td>
+                </tr>
+    </table>
+    <p>
+      <input type="checkbox" name="checkAgree" id="checkAgree" accesskey="12" tabindex="2" />
+    .Tick-box       for whether you have read and agree with our playing guidelines (below)
+    </p>
+    <h2>&nbsp;</h2>
+    <p>&nbsp;</p>
+<p>&nbsp;</p>
+   
+    <p>
+    
+      <input type="submit" value="Submit"  onclick="confirmAction()"/>
+              <input type="reset" value="Reset" onclick="resetForm
+              "/>
+    </p>
+	<SCRIPT language="JavaScript">
+	
+	</SCRIPT>
+  </form>
+</div>
+
+</body>
+</html>
