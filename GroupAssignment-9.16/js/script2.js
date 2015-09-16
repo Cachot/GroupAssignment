@@ -3,7 +3,7 @@
 */
 
 // Speed of the automatic slideshow
-var slideshowSpeed = 6000;
+var slideshowSpeed = 5000;
 
 // Variable to store the images we need to set as background
 // which also includes some text and url's.
